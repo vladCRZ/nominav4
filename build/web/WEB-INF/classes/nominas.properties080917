@@ -1,0 +1,29 @@
+##URL\u00b4S de WS para remedy control
+URL_INSERT=http://localhost:8080/Remedy/servicios/RMDInsert?
+URL_UPDATE=http://localhost:8080/Remedy/servicios/RMDUpdate?
+URL_SELECT=http://localhost:8080/Remedy/servicios/RMDSelect? 
+
+
+##cliente
+CLIENTE_ARS=&cSistema=IXTOOLS
+
+##Formularios de consulta
+FORM_PEOPLE=&cForma=CTM:People
+##columnas
+DAT_COLUMNS=&cColumnas=
+##RUTAS
+RUTA_REMEDY = /home/remedy/NominaTMP/
+RUTA_IDMQ =/idm/bajasd/
+RUTA_ARCACT=/home/remedy/NominaTMP/AttachDocuments/Relacion_UUE_AMX_REMEDY.csv
+
+#Grupos de Soporte
+GRP_SOPORTE=1000000628
+
+#Conexion SFTP
+
+USUARIO=remedy
+HOST=100.127.24.3
+PUERTO=22
+PASS=R3m3dy123#
+RUTA_PANAMA= /home/remedy/NominaTMP/ONBPAN_NITSM_USUARIOS_LDAP.xls
+RUTA_RMDCONTROL=/home/remedy/NominaTMP/

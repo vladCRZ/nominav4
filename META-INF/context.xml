@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Nominas">
+<Resource 
+    driverClassName="oracle.jdbc.OracleDriver" 
+    logAbandoned="true" 
+    maxActive="50" 
+    maxIdle="10" 
+    maxWait="5000" 
+    minEvictableIdleTimeMillis="30000" 
+    name="Nomina_Pool" 
+    password="AR#Admin1" 
+    removeAbandoned="true"  
+    removeAbandonedTimeout="60" 
+    testOnBorrow="true" 
+    testWhileIdle="true" 
+    timeBetweenEvictionRunsMillis="5000" 
+    type="javax.sql.DataSource" 
+     url="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.53.111)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=ARSP81O.TELCEL.COM)))"  
+    username="ARADMIN" 
+    validationInterval="30000" 
+    validationQuery="select 1 from dual"
+    />
+</Context>
